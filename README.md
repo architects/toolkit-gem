@@ -18,7 +18,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+The Architects Toolkit is a wrapper around a multitude of gems that we
+use in development and design:
+
+- brief (https://github.com/datapimp/brief)
+- datapimp (https://github.com/datapimp/datapimp)
+
+Any command you can run in either of these gems, will work here:
+
+Run the help command to see available options:
+
+```
+archi help
+```
 
 ## Development
 
