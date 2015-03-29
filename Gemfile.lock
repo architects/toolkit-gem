@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    architects-toolkit (0.1.2)
-      brief (>= 1.8.11)
+    architects-toolkit (0.1.4)
+      brief (>= 1.9.0)
       datapimp (>= 1.0.2)
 
 GEM
@@ -27,7 +27,7 @@ GEM
       htmlentities (~> 4.3.1)
       nokogiri (>= 1.4.1)
       rubyzip (~> 1.0.0)
-    brief (1.8.12)
+    brief (1.9.0)
       activesupport (>= 4.0)
       commander (>= 4.2.1)
       github-fs
