@@ -23,8 +23,8 @@ Gem::Specification.new do |spec|
   #  spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
   #end
   
-  spec.add_dependency 'brief', '~> 1.9', '>= 1.9.4'
-  spec.add_dependency 'datapimp', '~> 1.0', '>= 1.0.3'
+  spec.add_dependency 'brief', '~> 1.9', '>= 1.9.8'
+  spec.add_dependency 'datapimp', '~> 1.0', '>= 1.0.10'
 
   spec.add_development_dependency "bundler", "~> 1.9"
   spec.add_development_dependency "rake", "~> 10.0"
