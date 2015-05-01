@@ -4,8 +4,6 @@ Dir[File.join(Dir.pwd, 'tasks', '*.rake')].each { |f| load f }
 require "bundler/gem_tasks"
 require 'rspec/core/rake_task'
 
-RSpec::Core::RakeTask.new(:spec)
-
 Distribution.configure do |config|
   config.package_name = 'archi'
   config.version = Architects::Toolkit::VERSION
@@ -21,5 +19,3 @@ Distribution.configure do |config|
     'nokogiri-1.6.5'
   ]
 end
-
-task :default => :spec

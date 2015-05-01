@@ -1,9 +1,9 @@
 PATH
   remote: .
   specs:
-    architects-toolkit (0.1.7)
+    architects-toolkit (0.1.9)
       brief (~> 1.9, >= 1.9.8)
-      datapimp (~> 1.0, >= 1.0.10)
+      datapimp (~> 1.0, >= 1.0.13)
 
 GEM
   remote: https://rubygems.org/
@@ -48,7 +48,7 @@ GEM
     commander (4.3.3)
       highline (~> 1.7.2)
     daemons (1.2.2)
-    datapimp (1.0.11)
+    datapimp (1.0.13)
       activesupport (~> 4.0)
       axlsx (~> 2.0)
       colored (> 0.0)
