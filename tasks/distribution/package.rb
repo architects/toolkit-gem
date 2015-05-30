@@ -14,7 +14,7 @@ module Distribution
                    :packaging_dir, :native_extensions
 
     def initialize(arch)
-      abort 'Ruby 2.1.x required' if RUBY_VERSION !~ /^2\.1\./
+      #abort 'Ruby 2.1.x required' if RUBY_VERSION !~ /^2\.1\./
 
       @arch = arch
       @config = ::Distribution.configuration
@@ -70,6 +70,7 @@ module Distribution
 
       FileUtils.cd root do
         FileUtils.mkdir_p "#{dir}/lib/app"
+        FileUtils.mkdir_p "#{dir}/lib/app/vendor/ruby/2.2.2/extensions"
       end
     end
 

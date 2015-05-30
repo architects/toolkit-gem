@@ -59,7 +59,7 @@ module Distribution
       clean_old_extensions
 
       package.native_extensions.each do |ext|
-        FileUtils.cd "#{package.dir}/lib/app/vendor/ruby/2.1.0/extensions" do
+        FileUtils.cd "#{package.dir}/lib/app/vendor/ruby/2.2.2/extensions" do
           curl 'http://d6r77u77i8pq3.cloudfront.net/releases/' \
                "traveling-ruby-gems-#{package.rb_version}-#{package.arch}/" \
                "#{ext}.tar.gz"
@@ -70,7 +70,7 @@ module Distribution
     end
 
     def clean_old_extensions
-      files = Dir['lib/app/vendor/ruby/2.1.0/extensions/**/*']
+      files = Dir['lib/app/vendor/ruby/2.2.2/extensions/**/*']
       files.each { |file| FileUtils.rm_rf file }
     end
 
